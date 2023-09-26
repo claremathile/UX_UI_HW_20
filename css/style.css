@@ -1,0 +1,150 @@
+/* Styling for Nav bar*/
+
+.logo {
+    width: 200px;
+    float: left;
+}
+
+.navbar {
+    background-color: #273859;
+    padding: 15px;
+    display: block;
+}
+
+.nav-link {
+    color: white;
+}
+
+/* Styling Jumbotron for intro*/
+
+.jumbotron {
+    background-image: url(../images/Jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh-25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    background-color: #273859;
+}
+
+/* Styling research cards */
+
+.content {
+    padding: 50px;
+    background-color: #F2D8CE;
+}
+
+.sectionHeading {
+    text-align: center;
+    padding: 30px;
+    color: #273859;
+}
+
+.researchRow {
+    padding: 0px 30px 30px 30px;
+}
+
+.cardContainer {
+    text-align: center;
+}
+
+.card-title {
+    padding: 10px;
+}
+
+.card-text {
+    padding: 10px;
+}
+
+/* Styling for problem statement */
+
+.jumbotron1 {
+    background-image: url(../images/paperbackground.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    height: calc(100vh-25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container1 {
+    color: #273859;
+    width: 80%;
+    min-width: 700px;
+    max-width: 900px;
+    text-align: center;
+    font-weight: 900;
+}
+
+/* Styling for accordion */
+
+.card {
+    background-color: #A6BF49;
+    color: #273859;
+}
+
+.btn {
+    color: #273859;
+    font-weight: bold;
+}
+
+/* Styling for final prototype */
+
+.prototype-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    max-width: 600px;
+}
+
+.iphone-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+}
+
+
+#image1 {
+    background-image: url(../images/unnamed.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+#image2 {
+    background-image: url(../images/unnamed-6.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+#image3 {
+    background-image: url(../images/unnamed-2.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+#image4 {
+    background-image: url(../images/unnamed-3.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+#image5 {
+    background-image: url(../images/unnamed-4.jpg);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Still working on getting the images right, could not figure out how to make them correct before due date */
